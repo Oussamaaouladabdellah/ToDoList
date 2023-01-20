@@ -49,7 +49,7 @@ export default function Formatasks() {
 
 
         <form>
-            <h1 className='title'>Enter the task une tache : </h1><br />
+            <h1 className='title'>Enter the task : </h1><br />
             <input type="text"  className='input_task'  value={task}  onChange={(a)=>{settask(a.target.value)}}  placeholder='Enter the task' />    
               <input type="button"  onClick={addtask}   className='button-29'  value="add" />
 
