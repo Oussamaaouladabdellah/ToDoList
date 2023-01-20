@@ -1,0 +1,135 @@
+@import url("https://fonts.googklepis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins",sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: linear-gradient(to bottom right,#ff966d,#fa538d,#89379c);
+}
+.container{
+    width: 50vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "login";
+    box-shadow: 0 0 17px 10px rgb(0 0 0 / 30%);
+    border-radius: 20px;
+    background: white;
+    overflow: auto;
+}
+.design{
+    grid-area: design;
+    display: none;
+    position: relative;
+}
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 30px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-left: 2% ;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.input_task{
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+}
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  .title1 {
+      font-size: 50px;
+      font-weight: 600;
+      background-image: linear-gradient(to left, #553c9a, #b393d3);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      margin-top: -4%;
+      margin-bottom: -4%;
+    }
+ @media(max-width:767px){
+    body{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      margin-top: 10px;
+    }
+    .title{
+      margin-top: 15px;
+      font-size: 15px;
+    }
+    .title1{
+      margin-top: -4px;
+      font-size: 20px;
+    }
+    
+.input_task{
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+}
+    .button-29{
+      margin-top: 13px;
+    }
+  
+ }

@@ -1,0 +1,98 @@
+
+.button-90 {
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 100px;
+    background-color: #02ff2c;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+      height: 50px;
+    border: 0;
+      margin-left: 2% ;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+    cursor: pointer;
+  }
+  .button-92 {
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 100px;
+      background-color: #ff0000;
+      background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+      box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+      font-weight: bold;
+      font-size: 16px;
+      height: 50px;
+      border: 0;
+      margin-left: 2% ; 
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    
+      cursor: pointer;
+    }
+    
+    .text-center{
+      width: 300px;
+      border-radius: 30px;
+      text-align: center;
+      height: 30px;
+  }
+  
+ @media(max-width:767px){
+    body{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+.text-center{
+    width: 170px;
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+}
+.button-92 {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: #ff0000;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+    height: 35px;
+    border: 0;
+    margin-left: 2% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+    cursor: pointer;
+  }
+  .button-90 {
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 100px;
+      background-color: #02ff2c;
+      background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+      box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+      font-weight: bold;
+      font-size: 16px;
+        height: 35px;
+      border: 0;
+        margin-left: 5% ;
+        margin-bottom: 5%;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    
+      cursor: pointer;
+    }
+  
+ }
